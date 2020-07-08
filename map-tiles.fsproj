@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <RootNamespace>map_tiles</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="WorkaroundModule.fs" />
+    <Compile Include="PerlinNoise.fs" />
+    <Compile Include="TerrainStruct.fs" />
+    <Compile Include="TerrainGeneration.fs" />
+    <Compile Include="Painting.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-rc0003" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta0010" />
+  </ItemGroup>
+
+</Project>
